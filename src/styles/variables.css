@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap'); 
+
+:root {
+  /* Existing */
+  --primary-color: #3563e9;
+  --secondary-color: #54a6ff;
+  --text-color: #333;
+
+  /* Colors - Projeden Alınan Renk Paleti */
+  /* --colors */
+  --vflow-blue-dark: #0046ad;      /* Başlıklar ve buton vurguları */
+  --vflow-blue-main: #3563e9;      /* Ana marka rengi */
+  --vflow-blue-light: #54a6ff;     /* İkincil vurgular ve hover durumları */
+  --vflow-bg-gradient: linear-gradient(135deg, #3563e9 0%, #00d2ff 100%); 
+  /* Arka plan geçişi */
+  --vflow-white: #ffffff;          /* Kart ve form zeminleri */
+  --vflow-gray-light: #f6f7f9;     /* Sayfa genel arka planı */
+  --vflow-gray-border: #e0e9f4;    /* Input ve divider çizgileri */
+  --vflow-text-main: #1a1d1f;      /* Gövde metni */
+  --vflow-text-muted: #94a3b8;     /* İkincil/yardımcı metinler */
+  --vflow-success: #2ecc71;        /* "Uygun" durumu ve onaylar */
+  --vflow-error: #ff4d4d;          /* "Yoğun" durumu ve iptal butonları */
+  --vflow-warning: #f39c12;        /* "Orta Yoğun" durumu */
+
+  /* Fonts - Google Fonts Import & Family */
+  /* --fonts */
+   
+  --font-primary: 'Plus Jakarta Sans', sans-serif;
+
+  /* Font Sizes - Hiyerarşik İsimlendirme */
+  /* --font-sizes */
+  --font-size-xs: 12px;   /* Yardımcı metinler, etiketler */
+  --font-size-sm: 14px;   /* Input placeholder, küçük butonlar */
+  --font-size-md: 16px;   /* Standart gövde metni (Body) */
+  --font-size-lg: 18px;   /* Kart başlıkları, öne çıkan metinler */
+  --font-size-xl: 20px;   /* Küçük başlıklar */
+  --font-size-2xl: 24px;  /* Alt sayfa başlıkları */
+  --font-size-3xl: 32px;  /* Bölüm başlıkları */
+  --font-size-4xl: 48px;  /* Önemli ekran karşılama başlıkları */
+  --font-size-5xl: 64px;  /* Landing page/Hero bölümleri */
+  
+  /* Border Radius & Shadows (Ekstra Öneri) */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-main: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}

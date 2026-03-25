@@ -1,0 +1,73 @@
+.auth-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9fafb;
+}
+
+
+/* 1. Tüm sayfa arka planı (Gradient) */
+.login-page {
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    font-family: var(--font-main); /* Fontu tüm sayfaya yayıyoruz */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 2. Sol taraftaki transparan özellik kartları */
+.feature-card {
+    background: rgba(255, 255, 255, 0.15); /* Cam efekti için hafif beyaz */
+    border: 1px solid var(--gray-border);
+    border-radius: 12px;
+    padding: 20px;
+    color: var(--white);
+}
+
+.feature-card h3 {
+    font-size: var(--font-size-lg); /* 18px */
+}
+
+.feature-card p {
+    font-size: var(--font-size-sm); /* 14px */
+}
+
+/* 3. Sağ taraftaki beyaz form alanı */
+.login-card {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 16px;
+    width: 400px;
+}
+
+/* 4. Input (E-posta ve Şifre) alanları */
+.form-input {
+    background-color: var(--gray-light);
+    border: 1px solid var(--gray-border);
+    font-size: var(--font-size-md); /* 16px */
+    color: var(--text-color);
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+/* 5. Giriş Yap Butonu */
+.login-button {
+    background-color: var(--dark-btn); /* Tasarımındaki koyu buton */
+    color: var(--white);
+    font-size: var(--font-size-md);
+    font-weight: 600;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* 6. "Şifremi Unuttum" ve linkler */
+.forgot-password {
+    color: var(--primary-color); /* Mavi link rengi */
+    font-size: var(--font-size-sm);
+    text-decoration: none;
+}
