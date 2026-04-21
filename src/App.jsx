@@ -12,22 +12,23 @@ import AuthPage from "./pages/AuthPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./index.css";
+import Layout from "./components/Layout";
 
 const App = () => {
   return (
     <BrowserRouter>
       <div className="app">
-        <Header />
-
         <main className="main">
           <Routes>
-            <Route path="/profiles" element={<Profiles />} />
-            <Route path="/appointments" element={<Appoitments />} />
-            <Route path="/" element={<EmergencyDepartment />} />
+            <Route path="/" element={<Layout />}>
+              <Route path="/profiles" element={<Profiles />} />
+              <Route path="/appointments" element={<Appointments />} />
+              <Route path="/" element={<EmergencyDepartment />} />
+            </Route>
             <Route path="/auth" element={<AuthPage />} />
+            <Route path="*" element={<NotFoundComponent />} />
           </Routes>
         </main>
-        <Footer />
       </div>
     </BrowserRouter>
   );
